@@ -7,7 +7,7 @@ import restaurant from '../assets/images/image-restaurant.jpg'
 
 export const Article = () => {
     const {ref: ref3, inView: inView3} = useInView({
-        threshold: 0.1,
+        threshold: 0.3,
         triggerOnce: true,
     })
     const articleItems =[
