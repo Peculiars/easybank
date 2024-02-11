@@ -22,9 +22,9 @@ export const Article = () => {
         <div className='article-heading'>
             <h1>Latest Articles</h1>    
         </div>
-        <div ref={ref3} className={inView3 ? 'article-content' : ''}>
+        <div className='article-content'>
             {articleItems.map((item)=>(
-                <div className='article-content-item' key={item.id}>
+                <div ref{ref3} className={inView3 ? 'article-content-item' : ''} key={item.id}>
                     <img className='article-img' src={item.image} alt={item.image} />
                     <p className='article-author'>By {item.author}</p>
                     <h2 className='sub-heading'>{item.subHeading}</h2>
