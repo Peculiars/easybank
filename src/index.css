@@ -74,7 +74,7 @@ body{
 
 
 .mobile-hero-bg{
-  @apply lg:hidden md:hidden relative sm:bg-cover w-full h-[27rem];  
+  @apply lg:hidden md:hidden relative sm:bg-cover sm:block w-full h-[27rem];  
 }
 
 .hero-phones{
