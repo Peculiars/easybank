@@ -78,7 +78,7 @@ body{
 }
 
 .hero-phones{
-  @apply absolute flex sm:justify-center lg:w-[35rem] md:w-[23rem] lg:left-[48rem] md:left-[30rem] sm:items-center xl:bottom-[8rem] lg:bottom-[-5rem] md:bottom-[45rem]  sm:bottom-[29rem] sm:left-0;
+  @apply absolute flex sm:justify-center lg:w-[35rem] md:w-[23rem] lg:left-[48rem] md:left-[30rem] sm:items-center xl:bottom-[8rem] lg:bottom-[-5rem] md:bottom-[45rem]  sm:bottom-[25rem] sm:left-0;
   z-index: 1;
 }
 
