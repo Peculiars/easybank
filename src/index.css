@@ -78,13 +78,13 @@ body{
 }
 
 .hero-phones{
-  @apply absolute flex sm:justify-center lg:w-[35rem] md:w-[23rem] lg:left-[48rem] md:left-[30rem] sm:items-center lg:bottom-[-5rem] md:bottom-[20rem]  sm:bottom-[18rem] sm:left-0;
+  @apply absolute flex sm:justify-center lg:w-[35rem] md:w-[23rem] lg:left-[48rem] md:left-[30rem] sm:items-center lg:bottom-[-5rem] md:bottom-[45rem]  sm:bottom-[18rem] sm:left-0;
   z-index: 1;
 }
 
 .desktop-hero-bg{
   @apply sm:hidden lg:block md:block bg-contain bg-no-repeat bg-right absolute lg:bottom-[-11rem] md:bottom-[27rem] lg:right-[-10rem] md:right-[-10rem] lg:w-[130%] md:w-[70%] lg:h-[170%] md:h-[90%];
-  z-index: -1;
+  
 }
 
 .hero-contents, .about-heading, .article-heading{
