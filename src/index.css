@@ -83,7 +83,7 @@ body{
 }
 
 .desktop-hero-bg{
-  @apply sm:hidden lg:block md:block xl:block bg-contain bg-no-repeat bg-right absolute lg:bottom-[-11rem] md:bottom-[27rem] lg:right-[-10rem] md:right-[-10rem] lg:w-[130%] md:w-[70%] lg:h-[170%] md:h-[90%];
+  @apply sm:hidden lg:block md:block xl:block bg-contain bg-no-repeat bg-right absolute lg:bottom-[-11rem] md:bottom-[27rem] lg:right-[-10rem] md:right-[-10rem] xl:w-[150%] lg:w-[130%] md:w-[70%] lg:h-[170%] md:h-[90%];
   z-index: -1;
 }
 
