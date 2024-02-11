@@ -69,7 +69,7 @@ body{
 }
 
 .hero-images{
-  @apply lg:relative lg:order-2 md:order-2;
+  @apply lg:relative lg:order-2 md:order-2 w-[100%];
 }
 
 
@@ -78,12 +78,12 @@ body{
 }
 
 .hero-phones{
-  @apply absolute flex sm:justify-center lg:w-[35rem] md:w-[23rem] lg:left-[48rem] md:left-[30rem] sm:items-center xl:bottom-[8rem] lg:bottom-[-5rem] md:bottom-[45rem]  sm:bottom-[29rem] sm:left-0;
+  @apply absolute flex sm:justify-center xl:w-[33rem] lg:w-[30rem] md:w-[23rem] xl:left-[52rem] lg:left-[55rem] md:left-[30rem] sm:items-center xl:bottom-[8rem] lg:bottom-[-2rem] md:bottom-[45rem]  sm:bottom-[29rem] sm:left-0;
   z-index: 1;
 }
 
 .desktop-hero-bg{
-  @apply sm:hidden lg:block md:block xl:block bg-contain bg-no-repeat bg-right absolute lg:bottom-[-11rem] md:bottom-[27rem] lg:right-[-10rem] md:right-[-10rem] lg:w-[130%] md:w-[70%] lg:h-[170%] md:h-[90%];
+  @apply sm:hidden xl:block lg:block md:block bg-cover bg-no-repeat bg-right absolute lg:bottom-[-5rem] md:bottom-[27rem] lg:right-[-5rem] md:right-[-10rem] xl:w-[100%] xl:h-[150%] xl:right-[-5rem] lg:w-[140%] md:w-[70%] lg:h-[140%] md:h-[90%];
   z-index: -1;
 }
 
