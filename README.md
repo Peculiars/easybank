@@ -44,9 +44,9 @@ Users should be able to:
 ### Useful resources
 
 - [React Documentation](https://reactjs.org/) - This documentation is my best bet all the time, its resourseful for anyone working with react. I was able to acquire new knowledge on how useRef hook works.
-- [Example resource 2](https://www.example.com) - Talwindcss Doc is also another guide for me when it comes to styling the pages, in this project i understand how to use tailwind flexbox, overflow, how to apply gradients and gap properties.
+- [Tailwindcss Documentation](https://www.example.com) - Talwindcss Doc is also another guide for me when it comes to styling the pages, in this project i understand how to use tailwind flexbox, overflow, how to apply gradients and gap properties.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Peculiars)
-- Twitter - [@yourusername](https://www.twitter.com/D_peculiars)
+- Frontend Mentor - [@Peculiars](https://www.frontendmentor.io/profile/Peculiars)
+- Twitter - [@D_peculiars](https://www.twitter.com/D_peculiars)
 
