@@ -7,7 +7,7 @@ import restaurant from '../assets/images/image-restaurant.jpg'
 
 export const Article = () => {
     const {ref: ref3, inView: inView3} = useInView({
-        threshold: 0.1,
+        threshold: 0.3,
         triggerOnce: true,
     })
     const articleItems =[
@@ -22,9 +22,9 @@ export const Article = () => {
         <div className='article-heading'>
             <h1>Latest Articles</h1>    
         </div>
-        <div ref={ref3} className={inView3 ? 'article-content' : ''}>
+        <div className='article-content'>
             {articleItems.map((item)=>(
-                <div className='article-content-item' key={item.id}>
+                <div ref={ref3} className={inView3 ? 'article-content-item' : ''} key={item.id}>
                     <img className='article-img' src={item.image} alt={item.image} />
                     <p className='article-author'>By {item.author}</p>
                     <h2 className='sub-heading'>{item.subHeading}</h2>
