@@ -154,7 +154,6 @@ body{
 
 .article-content{
   @apply mx-[1rem] lg:flex md:flex md:space-x-4 justify-center lg:space-x-4;
-  animation: animate 2s ease 0s 1 normal forwards;
 }
 
 .article-author, .sub-heading, .article-description{
@@ -175,6 +174,7 @@ body{
 
 .article-content-item{
   @apply lg:w-[16rem] lg:pb-[1rem] md:pb-[0.5rem] sm:pb-[2.5rem] rounded-lg shadow-lg mb-[2rem];
+  animation: animate 2s ease 0s 1 normal forwards;
 }
 
 .footer-container{
